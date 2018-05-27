@@ -1,0 +1,15 @@
+! Version: 20180526
+! Title: LinkedIn ads killer
+! Last modified: 
+! Expires: 14 days (update frequency)
+! Homepage: https://github.com/theandychung/LinkedIn-ads-killer
+!
+
+!hide premium blocks
+linkedin.com##*[class*=premium]
+
+!hide Promoted posts
+linkedin.com##div.relative.ember-view > div:-abp-has(span:-abp-contains(Promoted))
+
+!hide "try premium for free" buttom in notification
+linkedin.com##button:-abp-contains(/Try Premium for free/i)
