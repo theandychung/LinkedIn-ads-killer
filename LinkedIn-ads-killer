@@ -11,5 +11,8 @@ linkedin.com##*[class*=premium]
 !hide Promoted posts
 linkedin.com##div.relative.ember-view > div:-abp-has(span:-abp-contains(Promoted))
 
+!hide "improve your * skills posts
+linkedin.com##div.relative.ember-view > div:-abp-has(div:-abp-contains(/Improve your/i))
+
 !hide "try premium for free" buttom in notification
 linkedin.com##button:-abp-contains(/Try Premium for free/i)
