@@ -5,6 +5,9 @@
 ! Homepage: https://github.com/theandychung/LinkedIn-ads-killer
 !
 
+!hide top banner ads
+linkedin.com##*[class*=ad-banner-container]
+
 !hide premium blocks
 linkedin.com##*[class*=premium]
 
